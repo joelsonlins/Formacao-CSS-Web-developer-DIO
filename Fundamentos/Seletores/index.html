@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        /*
+        SELETORES: definem em quais elementos nós vamos aplicar o CSS
+        * 1. Seletor de Tag/Tipo
+        * 2. Seletor de Id
+        * 3. Seletor de Classe
+        * 4. Seletor Universal
+        * 5. Seletor de atributo
+        */
+        /*-- Seletores de Universal --*/
+        *{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        /*-- Seletores de Tag/Tipo --*/
+        h1 {
+            background-color: darkblue;
+            color: lightgreen;
+        }
+        div:first-of-type { /* first-of-type está sendo utilizado para que aos outras divs fiquem livros de modificações deste exemplo*/
+            background: lightblue;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+        div:first-of-type ul:first-of-type li{ /*Alteraçao feita para somente a primeira ul ser modificada*/
+            background: lightgreen;
+            color: red;
+        }
+        /*-- Seletores de Id --*/
+        #texto-01{
+            background: red;
+            color: white;
+        }
+        /*-- Seletores de Classe --*/
+        .seletores-mais-comuns{
+            background: blue;
+            color: yellow;
+
+        }
+        .texto-maiusculo{
+            text-transform: uppercase;
+        }
+        
+        /*-- Seletores de atributo --*/
+       
+        [target]{
+            background: orange;
+        }
+         /*[atrib=value]*/
+         [title="Netflix"] {
+            color: white;
+        }
+        [title="Spotify"] {
+            color: green;
+        }
+        [title="Prime Video"] {
+            color: red;
+        }
+        [title~=streaming]{
+            background: yellow;
+        }
+        [title|=streaming]{
+            background: red;
+        }
+        [href^="http://"]{
+            border: 1px solid black;
+        }
+    [href$="login"]{
+        font-weight: bold;
+        text-decoration: line-through;
+    }
+    [href*="cinema"]{
+        font-style: italic;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Seletores CSS</h1>
+
+    <h2>* Seletor de Tag/Tipo</h2>
+    <p>Bem-Vindo!</p>
+    <p>No CSS nós possímos os seletores por ID</p>
+    <div>
+        <ul>
+            <li><b>Seletor por tipo: </b>Busca elementor por uma tag HTML específica</li>
+            <li><b>Seletor por ID (#): </b>Busca elementos através do atributo "id"</li>
+            <li><b>Seletor por Classe (.); </b>Busca elementos através do atributo "class"</li>
+            <li><b>Seletor Universal (*): </b>Seleciona todos os elementos HTML</li>
+            <li><b>Seletor de Atributo ([atrib]): </b>Seleciona elementos que possuem 
+                <br>
+                um atributo específico em nosso documento HTML e conseguimos
+                <br>
+                também buscar atributos com valor específico</li>
+        </ul>
+    </div>
+    <h2>* Seletor de Id (#)</h2>
+    <p id="texto-01">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere aperiam </p>
+    <p id="texto-02">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere aperiam </p>
+    <br>
+
+
+    <h2>* Seletor de Classe (.)</h2>
+    <p class="seletores-mais-comuns texto-maiusculo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere aperiam </p>
+    <p class="seletores-mais-comuns texto-maiusculo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere aperiam </p>
+    <p class="seletores-mais-comuns">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere aperiam </p>
+    <br>
+
+
+    <h2>* Seletor de Atributo ([atrib])</h2>
+    <div>
+        <ul>
+            <li>
+                <a title="Netflix" href="https://www.cinemanetflixlogin.com/" target="_blank">Netflix</a>
+            </li>
+            <li>
+                <a title="Prime Video" href="http://www.primevideo.com/login" target="_blank">Prime Video</a>
+            </li>
+            <li>
+                <a title="Spotify" href="https://www.spotify.com/" target="_blank">Spotify</a>
+            </li>
+            <li>
+                <a title="streaming hbomax" href="http://www.max.com/br/pt/login" target="_blank">HBO Max</a>
+            </li><li>
+                <a title="Paramount streaming" href="http://www.cinemaparamountplus.com/" target="_blank">Paramount</a>
+            </li>
+            <li>
+                <a title="streaming-tvapple" href="https://tv.apple.com/" target="_blank">TV Apple</a>
+            </li>
+            <li>
+               Disney Plus
+            </li>
+        </ul>
+    </div>
+    
+    
+</body>
+</html>
