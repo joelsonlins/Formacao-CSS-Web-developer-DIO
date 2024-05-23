@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        * Propriedades Básicas do CSS
+        * Width: Largura
+        * Height: Altura
+        */
+       /**/
+
+        div#div-00 {
+            background: lightblue;
+            width: 200px; /* podendo ser px, auto, rem,inherit(aplica o valor padrão utilizando o seu elemento pai) initial(aplica a propriedade padrão, seu valor inicial)*/
+            height: 200px;
+        }
+        #div-01{
+            background:lightblue ;
+            width: 200px;
+            height: 200px;
+
+        }
+        #div-02{
+            background: lightgreen;
+            height: inherit;
+        }
+        /*
+        * Propriedades Básicas do CSS
+        * max-width e min-width ( min-será a largura mínima, ele não reduzirar mais que isso, max - sera a largura máxima, ele não irá além disso, irá quebrar a linha)
+        * min-height e max-height
+        */
+        button{
+            background:pink ;
+            max-width: 200px;
+            min-height: 300px;
+            max-height: 500px;
+
+        }
+        /*
+        Margin: espaçamento por fora dos elementos
+        Um valor: aplica nos 4 lados
+        Dois valores: em cima e embaixo
+        Três valores: em cima, Lados e embaixo
+        Quatro valores: cima, direita, baixo, esquerda
+
+        margin-top
+        margin-botton
+        margin-left
+        margin-rigth
+        */
+        div.elementos{
+            width: 300px;
+            height: 300px;
+        }
+        #elemento-01{
+            background: orange;
+            margin: 50px;
+        }
+        #elemento-02{
+            background: purple;
+            margin-top: 10px;
+            margin-left: 25px;
+        }
+        #elemento-03{
+            background:blue;
+           margin:20px auto;
+        }
+          /*
+        Padding: espaçamento dentro do elemento
+        Um valor: aplica nos 4 lados
+        Dois valores: em cima e embaixo
+        Três valores: em cima, Lados e embaixo
+        Quatro valores: cima, direita, baixo, esquerda
+
+        padding-top
+        padding-botton
+        padding-left
+        padding-rigth
+        */
+
+        div.elementos-p{
+            width: 200px;
+            height: 200px;
+            color: white;
+        }
+
+        #elemento-04{
+            background: orange;
+            padding: 30px;            
+        }
+        #elemento-05{
+            background: purple;
+            padding: auto;
+        }
+        #elemento-06{
+            background:blue;
+            margin-left: -30px;
+        }
+        /* Box Sizing
+        * width = Largura + Borda + padding
+        */
+
+        
+        div.elementos-b{
+            width: 200px;
+            height: 200px;
+            color: white;
+            margin: 20px;
+            padding: 20px;
+        }
+        #elemento-07{
+            background: orange;                    
+        }
+        /* 200px + 20px + 20px = 240px */
+        #elemento-08{
+            background: purple;
+            box-sizing: border-box; /* respeita as dimensões para ter a largura e altura definidas */
+            /* 160px + 20px + 20px = 200px */
+        }
+        #elemento-09{
+            background:blue;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedades de Dimensionamento e espaçamento</h1>
+    <h2>* Largura e Altura</h2>
+    <!---->
+    <div id="div-00">Trilha CSS</div>
+    <br><br>
+    <!---->
+    <div id="div-01">
+        Sou a div 01
+        <div id="div-02">
+            Sou a div 02
+        </div>
+    </div>
+    <br><br>
+    <h2>* Altura e Largura Máxima e Mínima</h2>
+    <button>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta velit perferendis eligendi natus, magni iste voluptate ratione odit facilis laborum necessitatibus repellat dolore autem aperiam tenetur cupiditate temporibus vitae ea!Loremloresadasddsadsad Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda totam eligendi illo molestiae mollitia unde pariatur! Minima eaque delectus tempore numquam possimus sapiente, dolor consectetur eum, quas nobis libero.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta velit perferendis eligendi natus, magni iste voluptate ratione odit facilis laborum necessitatibus repellat dolore autem aperiam tenetur cupiditate temporibus vitae ea!Loremloresadasddsadsad Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda totam eligendi illo molestiae mollitia unde pariatur! Minima eaque delectus tempore numquam possimus sapiente, dolor consectetur eum, quas nobis libero.
+        
+    </button>
+    <br><br><br><br>
+    <h2>* Margin</h2>
+    
+    <div class="elementos" id="elemento-01">
+
+    </div>
+    <div class="elementos" id="elemento-02">
+
+    </div>
+    <div class="elementos" id="elemento-03">
+
+    </div>
+    <h2>* Pading</h2>
+    <div class="elementos-p" id="elemento-04">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore distinctio sit modi fugiat quaerat ut quos tempore suscipit voluptatibus. Harum eos commodi fuga nihil iusto hic minus eum aspernatur quia.
+    </div>
+    <div class="elementos-p" id="elemento-05">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore distinctio sit modi fugiat quaerat ut quos tempore suscipit voluptatibus. Harum eos commodi fuga nihil iusto hic minus eum aspernatur quia.
+    </div>
+    <div class="elementos-p" id="elemento-06">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore distinctio sit modi fugiat quaerat ut quos tempore suscipit voluptatibus. Harum eos commodi fuga nihil iusto hic minus eum aspernatur quia.
+    </div>
+    <h2>* Box Sizing</h2>
+    <div class="elementos-b" id="elemento-07">
+
+    </div>
+    <div class="elementos-b" id="elemento-08">
+
+    </div>
+    <div class="elementos-b" id="elemento-09">
+
+</body>
+</html>
