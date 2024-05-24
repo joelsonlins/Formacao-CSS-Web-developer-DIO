@@ -1,25 +1,195 @@
-
-
-
-#um{
-    width: 300px;
-    height: 300px;
-    background-color: palevioletred;
-    background-image: url('../image/paisagem-02.png');
-    background-image: linear-gradient(lightpink,red);
+body {
+  height: 200vh;
 }
-#dois{
-    width: 300px;
-    height: 300px;
-    background-image: radial-gradient(lightpink,purple);
+.exemplo {
+  width: 300px;
+  height: 300px;
 }
-#tres{
-    width: 300px;
-    height: 300px;
-    background-image: repeating-linear-gradient(to top, palevioletred 0 20px, lightpink 20px 40px);
+.fundo {
+  background-image: url(../image/paisagem.jpg);
+  background-size: 120px;
+  border: 1px solid red;
 }
-#quatro{
-    width: 300px;
-    height: 300px;
-    background-image: url(../image/paisagem.jpg), url(../image/paisagem-01.PNG);
+.att {
+  background-image: url(../image/paisagem.jpg);
+  background-size: cover;
+  border: 1px solid red;
+  overflow: auto;
+  color: white;
+}
+.box {
+  background-image: url(../image/paisagem.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: 15px dashed palegreen;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.clip {
+    text-align: center;
+  border: 15px dashed palegreen;
+  color: white;
+  padding: 30px;
+  font-size: 70px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  background-color: palevioletred;
+  background: radial-gradient(
+        circle at 0% 50%,
+        rgba(96, 16, 48, 0) 9px,
+        #613 10px,
+        rgba(96, 16, 48, 0) 11px
+      )
+      0px 10px,
+    radial-gradient(
+      at 100% 100%,
+      rgba(96, 16, 48, 0) 9px,
+      #613 10px,
+      rgba(96, 16, 48, 0) 11px
+    ),
+    #8a3;
+  background-size: 20px 20px;
+}
+.mesclagem{
+    border: 15px dashed palegreen;
+    color: white;
+    padding: 30px;
+    font-size: 70px;
+    font-weight: 900;
+    background-color: orange;
+    background-size: cover;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY1Xx7j105VpSv3hplxvzd3oZpw1vErfoJDQ&s');
+}
+.back{
+    border: 15px dashed palegreen;
+    color: white;
+    padding: 30px;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+#um {
+  background-color: palevioletred;
+  background-image: url("../image/logo.png");
+  background-image: linear-gradient(lightpink, red);
+}
+#dois {
+  background-image: radial-gradient(lightpink, purple);
+}
+#tres {
+  background-image: repeating-linear-gradient(
+    to top,
+    palevioletred 0 20px,
+    lightpink 20px 40px
+  );
+}
+#quatro {
+  background-image: url(../image/logo.png), url(../image/paisagem.jpg);
+}
+
+/*Redimensionando as imagens de fundo dos elementos*/
+#cinco {
+  background-image: url(../image/paisagem.jpg);
+}
+#seis {
+  background-image: url(../image/paisagem.jpg);
+  background-size: cover;
+}
+#sete {
+  background-image: url(../image/paisagem.jpg);
+  background-size: contain;
+}
+#oito {
+  background-image: url(../image/paisagem.jpg);
+  background-size: 50%;
+}
+#nove {
+  background-image: url(../image/paisagem.jpg);
+  background-size: 200px 250px;
+}
+#dez {
+  background-image: url(../image/logo.png), url(../image/paisagem.jpg);
+  background-size: contain, cover;
+}
+
+/* Repetição de imagens de fundo */
+#onze {
+  background-repeat: repeat;
+}
+#doze {
+  background-repeat: repeat-x;
+}
+#treze {
+  background-repeat: repeat-y;
+}
+#quatoze {
+  background-repeat: space;
+}
+#quinze {
+  background-repeat: round;
+}
+#dezesseis {
+  background-repeat: no-repeat;
+}
+#dezessete {
+  background-repeat: repeat space;
+}
+
+/* Posicionamento das imagens de fundo */
+#dezoito {
+  background-repeat: no-repeat;
+  background-position: left 10px bottom 20px; /* podendo utilizar posições ou px */
+}
+
+/* Propriedade Background Attachment */
+#fixed {
+  background-attachment: fixed; /* a imagem atras fica fixa em relação a pagina web movendo apenas o conteudo*/
+}
+#scroll {
+  background-attachment: scroll; /* A imagem atras fica fixa em relaçãoo ao container */
+}
+#local {
+  background-attachment: local; /* a imagem move juntamente com o scroll do container */
+}
+
+/* Propriedade Backgroun Origin */
+#paddingbox {
+  background-origin: padding-box;
+}
+#borderbox {
+  background-origin: border-box;
+}
+#contentbox {
+  background-origin: content-box;
+}
+/* Propriedade Backgroun Clip */
+#clippaddingbox {
+  background-clip: padding-box;
+}
+#clipborderbox {
+  background-clip: border-box;
+}
+#clipcontentbox {
+  background-clip: content-box;
+}
+#cliptext {
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    border: 5px solid black;
+  }
+/* Mesclarem */
+#mescla{
+    background-blend-mode: overlay; /* scren, overlay, color-dodg */
+}
+
+#back{
+    background:
+    url('../image/paisagem.jpg') /*image*/
+    top center / 200px 200px /* position / size */
+    no-repeat /* repeat */ 
+    local /* attachment */ 
+    padding-box /* origin */ 
+    content-box /* clip */ 
+    red;
 }
