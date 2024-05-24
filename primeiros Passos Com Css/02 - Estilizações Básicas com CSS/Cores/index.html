@@ -5,14 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            background: snow;
+        }
+        ul.color{
+            background: white;
+            border: 1px solid black;
+        }
 
+        #current-color{
+            background: transparent;
+            color: sienna;
+            border: 5px solid currentColor;
+        }
+        #pre-definidas{
+            color: SlateBlue;
+        }
+        #rgb {
+            color: rgb(34,139,34);
+            background: rgb(210, 180, 140);
+        }
+        #rgba {
+            color: rgba(34,139,34,0.5);
+            background: rgba(210, 180, 140, 0.5);
+        }
+        #hex {
+            color: #0000FF;
+            background: #FF8955;
+        }
+        #hex-transparencia{
+            color: #0000FF80;
+            border-radius: #FF895580;
+        }
+        #hsl{
+            color: hsl(240, 100%, 50%);
+            background: hsla(138, 81%, 80%);
+        }
+        #hsla{
+            color: hsl(69, 98%, 67%);
+            background: rgb(0, 0, 0, 0.5);
+        }
     </style>
 </head>
 <body>
     <h1>Cores</h1>
     <h2>* Cores Pré-Definidas</h2>
     <p>Existem várias formas de definirmos cores utilizando o CSS. Elas são:</p>
-    <ul>
+    <ul class="color">
         <li id="pre-definidas">Cores pré-definidas</li>
         <li id="current-color">currentcolor</li>
         <li id="hex">Hexadecimal</li>
@@ -22,5 +61,34 @@
         <li id="hsl">HSL</li>
         <li id="hsla">HSLA</li>
     </ul>
+    <hr>
+    <h2>* HSL</h2>
+    <code>hsl(hue, saturation, lightness)</code>
+    <ul>
+        <li>
+            <b>Hue(matiz):</b> é o grau da roda de cores (de 0 a 360 graus)
+            <ul>
+                <li>0 ou 350 é vermelho</li>
+                <li>120 é verde</li>
+                <li>240 é azul</li>
+            </ul>
+        </li>
+        <li>
+            <b>Saturation(saturação):</b> valor percentual
+            <ul>
+                <li>0% um tom de cinza</li>
+                <li>100% cor total</li>
+            </ul>
+        </li>
+        <li>
+            <b>Lightness(luminosidade):</b> luminosidade da cor
+            <ul>
+                <li>0% é preto</li>
+                <li>100% é branco</li>
+            </ul>
+        </li>
+    </ul>
+    <br><br>
+    <img src="https://maujor.com/imagens/ogcss3moduloparacores.jpg" alt="roda de cores">
 </body>
 </html>
