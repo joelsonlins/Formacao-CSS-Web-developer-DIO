@@ -24,9 +24,9 @@
  
    -  [x] Fundamentos do css(3hr)
    -  [x] Estilizações Básicas com CSS(6hrs)
-   -  [x] Unidades de Medida em CSS(2hr)
-   -  [x] Criando sua Primeira Landing Page com HTML e CSS(2hr)
-   -  [x] Materiais Complementares - Primeiros Passos com CSS(1hr)
+   -  [] Unidades de Medida em CSS(2hr)
+   -  [] Criando sua Primeira Landing Page com HTML e CSS(2hr)
+   -  [] Materiais Complementares - Primeiros Passos com CSS(1hr)
   
 </details>
 <details>
