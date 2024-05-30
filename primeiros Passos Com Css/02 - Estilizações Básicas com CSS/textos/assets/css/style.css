@@ -1,0 +1,157 @@
+code{
+    background-color: rgb(99, 250, 61);
+}
+
+#uppercase{
+    text-transform: uppercase;
+}
+#capitalize{
+    text-transform:capitalize ;
+}
+#lowecase{
+    text-transform: lowercase;
+}
+
+/* Propriedade align */
+
+#alignp, #alignexemplo {
+    padding: 10px;
+    background-color: lavender;
+    text-align: center;
+}
+#alignexemplo {
+    width:370px;
+    border: 1px solid black;
+}
+
+/* Propriedade text-decoration */
+
+#deco01 {
+    text-decoration-line: underline;
+}
+#deco02 {
+    text-decoration-line: underline;
+    text-decoration-style: double; /* para a propriedade funcionar você tem que colocar text-decoration-line primeiro  */ 
+}
+#deco03{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+}
+#deco04{
+    text-decoration-line: underline;
+    text-decoration-style:dashed;
+    text-decoration-color: red;
+    text-decoration-thickness:10px ;
+}
+#deco05 {
+    text-decoration: underline solid red 2px ;
+}
+
+/* Propriedade text-ident */
+
+#ident{
+    text-indent: 10px;
+}
+
+/* espaçamento entre letras e palavras */
+#exemplo-letter-spacing{
+letter-spacing: 5px;
+}
+#exemplo-word-spacing{
+word-spacing: 10px;
+}
+/* Propriedade white-space */
+.exemplowhitespace{
+    width: 200px;
+    background-color: chartreuse;
+}
+.spanwhitespace{
+    background-color: seagreen;
+    color: white;
+}
+#whitespacenowrap{
+    white-space:nowrap; /* As quebras de linhas são ignoradas ficando apenas em uma linha */
+}
+#whitespacepre{
+    white-space: pre; /* os espaços em branco são preservados e o txto só quebra quando ocorre quebra de linha no html */
+}
+#whitespacepre-line{
+    white-space: pre-line; /* quebra o texto tanto respeitando o html escrito quanto o container */
+}
+#whitespacepre-wrap{
+    white-space: pre-wrap; /* diferente do pre-line os espaços em branco são preservados */
+}
+#whitespacebreak-spaces{
+    white-space: break-spaces;  /* Mantem os espaços e quebras */
+}
+/* Propriedade word-warp */
+
+.exemplowordwrap{
+    width: 100px;
+    color: black;
+    background-color: blueviolet;
+}
+
+#wordwrapnormal{
+    word-wrap: normal;
+}
+#wordwrapbreakword{
+    word-wrap: break-word;
+}
+
+.wordbreak{
+    width: 100px;
+    color: black;
+    background-color: aquamarine;
+}
+
+/* Propriedade word-break */
+
+#breakword{
+    word-break: break-word;
+}
+#breakall{
+    word-break: break-all;
+}
+#keepall{
+    word-break: keep-all;
+}
+
+/* Propriedade writing-mode */
+
+.writingmode{
+    width: 120px;
+    height: 120px;
+    color: black;
+    background-color: chartreuse;
+}
+#horizontatb{
+    writing-mode: horizontal-tb;
+}
+#verticalrl{
+    writing-mode: vertical-rl;
+}
+#verticallr{
+    writing-mode: vertical-lr;
+}
+
+/* Propriedade Text-overflo */
+
+.overflow{
+    width: 200px;
+    color: black;
+    background-color: chartreuse;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#overclip{
+text-overflow: clip;
+}
+#overelli{
+text-overflow: ellipsis;
+}
+#overstr{
+    text-overflow: 'Ver mais >'; /* apenas no firefox */
+}

@@ -1,0 +1,112 @@
+/* padronizando de toda a página
+* {
+    font-family: "Times New Roman", monospace;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: Roboto ; /* Nesta parte o nome é o que você quiser */
+    src:local(), url("../fonts/Roboto-Black.ttf"); /* também pode ter u fallback de reserva */
+    font-weight: bold;
+}
+@font-face {
+    font-family: Roboto ; /* Nesta parte o nome é o que você quiser */
+    src:local(), url("../fonts/Roboto-Thin.ttf"); /* também pode ter u fallback de reserva */
+    font-weight: lighter;
+}
+@font-face {
+    font-family: Roboto ; /* Nesta parte o nome é o que você quiser */
+    src:local(), url("../fonts/Roboto-Regular.ttf"); /* também pode ter u fallback de reserva */
+    font-weight: normal;
+}
+@font-face { /* pode ser utilizado mais de um font-face */
+    font-family: batata;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+p {
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+ul {
+    font-family: batata;
+}
+#fonte01{
+    font-weight: bold;
+}
+#fonte02{
+    font-family: 'Danfo';
+}
+/* Alterando o tamanho das fontes com font-size */
+
+code {
+    background-color: rgb(28, 255, 28);
+}
+#xx-small{
+    font-size:xx-small;
+}
+#x-small{
+    font-size:x-small;
+}
+#small{
+    font-size:small;
+}
+#medium{
+    font-size:medium;
+}
+#large{
+    font-size:large;
+}
+#x-large{
+    font-size:x-large;
+}
+#xx-large{
+    font-size:xx-large;
+}
+
+div{
+    font-size: 20px;
+}
+#tamanho {
+    font-size: larger; /* se baseia sempre no tamanho do elemento pai*/
+}
+
+/* Estilo de fontes */
+#italic{
+    font-style: italic;
+}
+#oblique {
+    font-style: oblique; /* mesmo efeito do italic porém menos suportado */
+}
+
+/* Espessura das fontes */
+
+#weightp{
+    font-weight: 900;
+}
+#bold{
+    font-weight:bold; /* igual ao valor 700 */
+}
+#divnormal{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+p#lighterorbolder{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: red;
+}
+
+/* Propriedade font-variant */
+#variant {
+    font-variant: small-caps;
+}
+/* Propriedade line-height */
+#lineheight{
+    line-height: 1.8; /* podendo usar numeros, % e nomes fixos */
+}
+/* Propriedade resumida */
+#allinone {
+    font: italic small-caps bold 24px/2 Georgia, serif;
+}

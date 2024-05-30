@@ -1,0 +1,26 @@
+
+
+div#box {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #8f382a;
+    margin: 20px auto;
+    background: #fa8072;
+    box-shadow: inset 20px 20px 10px -7px  pink, 20px 20px 10px -7px  black;
+}
+
+div#imagem{
+    width: 500px;
+    height: 200px;
+    margin: 20px auto;
+    object-fit: cover;
+    filter: drop-shadow(10px 10px 5px gray);
+    
+}
+
+h2 {
+    color: deeppink;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}

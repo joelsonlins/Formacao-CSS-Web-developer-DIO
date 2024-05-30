@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Textos</h1>
+    <details>
+        <summary>Propriedade Text-Transform</summary>
+        <code>Normal</code>
+        <p>É RESPONSÁVEL por definir quais caracteres vão estar em maiúsculo, minúsculo, etc.</p>
+        <code>uppercase</code>
+        <p id="uppercase">É RESPONSÁVEL por definir quais caracteres vão estar em maiúsculo, minúsculo, etc.</p>
+        <code>capitalize</code>
+        <p id="capitalize">É RESPONSÁVEL por definir quais caracteres vão estar em maiúsculo, minúsculo, etc.</p>
+        <code>lowercase</code>
+        <p id="lowecase">É RESPONSÁVEL por definir quais caracteres vão estar em maiúsculo, minúsculo, etc.</p>
+    </details>
+
+    <details>
+        <summary>Propriedade Text-align</summary>
+
+        <p id="alignp">Essa propriedade é responsável por alinhas o nosso texto no nosso elemento.</p>
+
+        <br>
+
+        <p id="alignexemplo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat provident ex quo exercitationem quidem quibusdam dolorum nihil sint vitae repellat! Asperiores eum nobis perspiciatis modi inventore necessitatibus totam, vel ab?</p>
+
+    </details>
+
+    <details>
+        <summary>Propriedade text-decoration</summary>
+        <p>Adiciona ou remove linhas no nosso texto: seja linhas em cima, no meio, ou embaixo.</p>
+
+        É uma propriedade abreviada de :
+        <ul>
+            <li id="deco01">text-decoration-line</li>
+            <li id="deco02">text-decoration-style</li>
+            <li id="deco03">text-decoration-color</li>
+            <li id="deco04">text-decoration-thickness</li>
+            <br>
+            <li id="deco05">text-decoration allinone</li>
+        </ul>
+        <a href="#">Link de Exemplo</a><br><br>
+        <s>Texto de exemplo</s>
+    </details>
+
+    <details>
+        <summary>Propriedae Text-ident</summary>
+        <p>Define o recuo da primeira linha do nosso texto. Exemplo:</p>
+        <p id="ident">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam mollitia corrupti debitis exercitationem labore omnis reprehenderit inventore sunt nesciunt similique illum minima recusandae ullam eum ratione blanditiis, ut quos vitae?</p>
+    </details>
+
+    <details>
+        <summary>Propriedades Letter-Spacing e Word-Spacing</summary>
+        <h2>Letter-Spacing</h2>
+        <p id="exemplo-letter-spacing">Adiciona um espaçamento entre cada CARACTERE do seu texto. Como o nome já diz, espaçamento entre as letras.</p>
+        <h2>Word-Spacing</h2>
+        <p id="exemplo-word-spacing">Adicionar um espaçamento entre cada PALAVRA do seu texto. Como o nome já diz, espaçamento entre as letras.</p>
+    </details>
+
+    <details>
+        <summary> Propriedade White-Space</summary>
+        <p>Define como os espaços em branco do texto de um determinado elemento é tratado</p>
+        <i>Exemplos:</i><br><br>
+        <code>White-space: normal;</code>
+        <p class="exemplowhitespace">
+            <span class="spanwhitespace">
+                But     ere she from the church-door stepped
+               She smiled and told us why:
+            'It was a wicked woman's curse,
+               Quoth she, 'and what care I?'                   
+
+            She smiled, and smiled, and passed it off
+               Ere from the door she stept---
+            </span>
+        </p><br>
+        <code>White-space: nowrap;</code>
+        <p class="exemplowhitespace" id="whitespacenowrap">
+            <span class="spanwhitespace">
+                But     ere she from the church-door stepped
+               She smiled and told us why:
+            'It was a wicked woman's curse,
+               Quoth she, 'and what care I?'                   
+
+            She smiled, and smiled, and passed it off
+               Ere from the door she stept---
+            </span>
+        </p><br>
+        <code>White-space: pre;</code>
+
+        <p class="exemplowhitespace" id="whitespacepre">
+            <span class="spanwhitespace">
+                But     ere she from the church-door stepped
+               She smiled and told us why:
+            'It was a wicked woman's curse,
+               Quoth she, 'and what care I?'                   
+
+            She smiled, and smiled, and passed it off
+               Ere from the door she stept---
+            </span>
+        </p><br>
+        <code>White-space: pre-line;</code>
+        <p class="exemplowhitespace" id="whitespacepre-line">
+            <span class="spanwhitespace">
+                But     ere she from the church-door stepped
+               She smiled and told us why:
+            'It was a wicked woman's curse,
+               Quoth she, 'and what care I?'                   
+
+            She smiled, and smiled, and passed it off
+               Ere from the door she stept---
+            </span>
+        </p><br>
+        <code>White-space: pre-wrap;</code>
+
+        <p class="exemplowhitespace" id="whitespacepre-wrap">
+            <span class="spanwhitespace">
+                But     ere she from the church-door stepped
+               She smiled and told us why:
+            'It was a wicked woman's curse,
+               Quoth she, 'and what care I?'                                                       
+
+            She smiled, and smiled, and passed it off
+               Ere from the door she stept---
+            </span>
+        </p><br><br>
+        <code>White-space: break-spaces;</code>
+        <p class="exemplowhitespace" id="whitespacebreak-spaces">
+            <span class="spanwhitespace">
+                But     ere she from the church-door stepped
+               She smiled and told us why:
+            'It was a wicked woman's curse,
+               Quoth she, 'and what care I?'                                                          
+
+            She smiled, and smiled, and passed it off
+               Ere from the door she stept---
+            </span>
+        </p>
+
+
+    </details>
+
+    <details>
+        <summary>Propriedade Word-Wrap</summary>
+        <p>Define, caso uma palavra seja muito grande para caber em uma linha, se ela será
+            quebrada em qualquer caractere para que uma parte dela fique na linha e o restante na próxima, ou se não,
+            toda palavra deve ficar na mesma linha e ultrapassar os limites ue definimos para o elemento.
+        </p>
+
+        <code>word-wrap: normal;</code>
+        <p id="wordwrapnormal" class="exemplowordwrap">
+            Trilha de CSS TrilhaDeCssTudoJunto Trilha de CSS
+        </p>
+        <code>word-wrap: break-word;</code>
+        <p id="wordwrapbreakword" class="exemplowordwrap">
+            Trilha de CSS TrilhaDeCssTudoJunto Trilha de CSS
+        </p>
+    
+    </details>
+    <details>
+        <summary>Propriedade Word-Break</summary>
+        <p>Define quando o nosso texto deve ter uma quebra de linha</p>
+
+        <code>word-break: normal;</code>
+        <p id="breakword" class="wordbreak">
+            Trilha de CSS TrilhaDeCssTudoJunto Trilha de CSS
+        </p>
+
+        <code>word-break: break-all;</code>
+        <p id="breakall" class="wordbreak">
+            Trilha de CSS TrilhaDeCssTudoJunto Trilha de CSS
+        </p>
+
+        <code>word-break: keep-all;</code>
+        <p id="keepall" class="wordbreak">
+            Trilha de CSS TrilhaDeCssTudoJunto Trilha de CSS
+        </p>
+    </details>
+    <details>
+        <summary>Propriedade writing-Mode</summary>
+        <p>Define a orientação do texto (vertical ou horizonval)</p>
+        <code>Writing-mode</code>
+        <p id="horizontatb" class="writingmode">
+            Chega de saudade
+            A realidade é que sem ela não há paz
+        </p>
+
+        <code>Writing-mode</code>
+        <p id="verticalrl" class="writingmode">
+            Chega de saudade
+            A realidade é que sem ela não há paz
+        </p>
+
+        <code>Writing-mode</code>
+        <p id="verticallr" class="writingmode">
+            Chega de saudade
+            A realidade é que sem ela não há paz
+        </p>
+    </details>
+
+    <details open>
+        <summary>Propriedade Text-Overflow</summary>
+        <p>Define a orientação do texto (vertical ou horizontal)</p>
+        <code>text-overflow: clip;</code>
+        <p id="overclip" class="overflow">
+            Chega de saudade
+            A realidade é que sem ela não há paz
+        </p>
+
+        <code>text-overflow: ellipsis;</code>
+        <p id="overelli" class="overflow">
+            Chega de saudade
+            A realidade é que sem ela não há paz
+        </p>
+
+        <code>text-overflow: string;</code>
+        <p id="overstr" class="overflow">
+            Chega de saudade
+            A realidade é que sem ela não há paz
+        </p>
+    </details>
+</body>
+</html>

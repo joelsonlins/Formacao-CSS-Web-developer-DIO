@@ -42,3 +42,39 @@ body{
     border: 5px solid black;
     border-radius: 30px; /* podendo arredondar os cantos separadamente ou tulizar outras utilizadas como 50px/100px e % também*/
 }
+.exemplo11{
+    border: 50px solid;
+    border-image-source: url('../image/logo.png');
+}
+.exemplo12{
+    border: 50px solid;
+    border-image-source:linear-gradient(white, blue);
+}
+.exemplo13{
+    border: 50px solid;
+    border-image-source: url('../image/logo.png');
+    border-image-slice: 169 fill;
+    border-image-repeat: repeat;
+}
+.exemplo14{
+    border: 50px solid;
+    border-image-source: url('../image/logo.png');
+    border-image-slice:100 ;
+    border-image-repeat: repeat;
+    border-image-width: 30px; /* podendo colocar mais de um valor, sendo um para cada lado */
+}
+.exemplo15{
+    border: 50px solid;
+    border-image-source: url('../image/logo.png');
+    border-image-slice:100 ;
+    margin: 50px auto;
+    border-image-repeat: round;
+    border-image-width: 30px; /* podendo colocar mais de um valor, sendo um para cada lado */
+    border-image-outset: 40px;
+}
+.exemplo16{
+    border: 50px solid;
+    margin: 50px auto;
+    border-image:url('../image/logo.png') 70 / 20px / 1 round ;
+ 
+}
