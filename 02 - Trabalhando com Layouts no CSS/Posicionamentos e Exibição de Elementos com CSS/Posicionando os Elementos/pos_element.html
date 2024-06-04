@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        height: 200vh;
+    }
+
+    .inline {
+        display: inline-block;
+    }
+
+    .exemplo {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+
+    .index {
+        position: absolute;
+        
+    }
+
+    #elemento-01 {
+        background-color: orange;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+    #elemento-02 {
+        background-color: palevioletred;
+        position: sticky;
+        top: 0;
+    }
+
+    #elemento-03 {
+        background-color: palegreen;
+    }
+
+    #elemento-04 {
+        background-color: paleturquoise;
+    }
+
+    #elemento-05 {
+        background-color: violet;
+        position: relative;
+        top: 60px;
+    }
+
+    #elemento-06 {
+        background-color: blueviolet;
+    }
+
+    #elemento-07 {
+        background-color: palegreen;
+        left: 10px;
+        top: 10px;
+        z-index: 2;
+    }
+
+    #elemento-08 {
+        background-color: aqua;
+        left: 20px;
+        top: 20px;
+        z-index: 1;
+
+    }
+
+    #elemento-09 {
+        background-color: violet;
+        left: 30px;
+        top: 30px;
+
+    }
+
+    #elemento-10 {
+        background-color: blueviolet;
+        left: 40px;
+        top: 40px;
+
+    }
+
+    #elemento-pai {
+        box-sizing: border-box;
+        height: 300px;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid red;
+        position: relative;
+    }
+    .elemento-pai {
+        box-sizing: border-box;
+        height: 300px;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid red;
+        position: relative;
+    }
+
+
+    #elemento-filho {
+        background-color: palegreen;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+    }
+
+    /* Exemplo 4 */
+
+    .container {
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        position: relative;
+    }
+
+    .container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container h3 {
+        font-size: 40px;
+        font-weight: 900;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        margin: 0;
+
+
+    }
+</style>
+
+<body>
+    <h1>Posicionando os elementos em tela</h1>
+
+    <p>A propriedade position vai nos ajudar a manipular a localização/posição do elemento na sua página
+    </p>
+
+    <ul>
+        <li><code>Position: static ;</code></li>
+        <li><code>Position: relative;</code></li>
+        <li><code>Position: absolute;</code></li>
+        <li><code>Position: fixed;</code></li>
+        <li><code>Position: sticky;</code></li>
+    </ul>
+
+    <h3>Elementos:</h3>
+    <!-- div#exemplo-$[class=teste-01]{Elemento $}*2 -->
+    <div id="elemento-01" class="exemplo inline">Elemento 01</div>
+    <div id="elemento-02" class="exemplo inline">Elemento 02</div>
+    <div id="elemento-03" class="exemplo inline">Elemento 03</div>
+
+    <hr>
+    <div id="elemento-04" class="exemplo">Elemento A</div>
+    <div id="elemento-05" class="exemplo">Elemento B</div>
+    <div id="elemento-06" class="exemplo">Elemento C</div>
+    <hr>
+    <div id="elemento-pai">
+        <div id="elemento-filho" class="exemplo"> </div>
+
+    </div>
+    <hr>
+    <div class="container">
+        <img src="https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJvYXV0aCI6eyJjbGllbnRfaWQiOiJmcm9udGlmeS1maW5kZXIifSwicGF0aCI6ImloaC1oZWFsdGhjYXJlLWJlcmhhZFwvZmlsZVwvWXRKOHd1S0d6NEVFN3NQZUVjRHcuanBnIn0:ihh-healthcare-berhad:pUpNvpIC5EeKbjJM_Wj2wa9u_wVgaKNWmzqFFz-90lw?format=webp"
+            alt="">
+        <h3>BREAKFAST</h3>
+
+    </div>
+
+    <hr>
+    <h2>Propriedade z-index</h2>
+    <div class="elemento-pai">
+        <div id="elemento-07" class="exemplo index">Elemento A</div>
+        <div id="elemento-08" class="exemplo index">Elemento B</div>
+        <div id="elemento-09" class="exemplo index">Elemento C</div>
+        <div id="elemento-10" class="exemplo index">Elemento D</div>
+    </div>
+</body>
+
+</html>

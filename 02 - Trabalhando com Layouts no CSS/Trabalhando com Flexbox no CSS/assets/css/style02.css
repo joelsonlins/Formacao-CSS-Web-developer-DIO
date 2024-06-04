@@ -1,0 +1,29 @@
+.container {
+    background-color: palegreen;
+    margin: 20px;
+    width: 300px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    align-content: normal; /* flex-start / flex-end / center / stretch / space-between / space-around */
+}
+
+.item {
+    background: orange;
+    height: 40px;
+    width: 40px;
+}
+
+#container-01{
+    height: 250px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#container-02{
+    height: 250px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

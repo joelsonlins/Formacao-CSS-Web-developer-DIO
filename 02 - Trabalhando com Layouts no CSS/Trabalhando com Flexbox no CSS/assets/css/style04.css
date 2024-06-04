@@ -1,0 +1,29 @@
+.container {
+    background: blueviolet;
+    padding: 10px;
+    margin-bottom:20px;
+
+    /* flex container props */
+    display: flex;
+    gap: 10px;
+}
+
+.item {
+    background: yellow;
+    padding: 8px;   
+    
+}
+
+#container-01{
+
+    flex-flow: row wrap;
+
+}
+#container-02{
+    flex-flow: column wrap;
+  
+}
+
+.item-04 {
+    order: -1;
+}

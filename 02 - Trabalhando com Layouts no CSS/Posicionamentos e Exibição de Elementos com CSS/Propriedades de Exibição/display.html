@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        .exemplo,
+        b {
+            background-color: palevioletred;
+        }
+
+        .inline {
+            color: white;
+            height: 200px;
+        }
+
+        .inline-block {
+            display: inline-block;
+            width: 200px;
+            margin: 8px;
+            padding: 30px;
+        }
+
+        .menu {
+            background-color: plum;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            padding: 20px 40px;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .esconder-elemento {
+            display: none;
+        }
+        .esconder-visibility{
+            visibility: hidden;
+        }
+        .container{
+            border: 1px solid red;
+            text-align: center;
+        }
+        #item-01{
+            height: 50px;
+            vertical-align: middle;
+        }
+        #item-02{
+            vertical-align: top;
+        }
+        
+    </style>
+    <h1>Propriedade display</h1>
+    <p>A propriedade display vai determinar como essas caixinhas retangulares irão se comportar na hora de serem
+        exibidas na tela.</p>
+
+    <ul>
+        <li>border-width</li>
+        <li>border-style</li>
+        <li>boorder-color</li>
+    </ul>
+    <h2>Exemplos:</h2>
+
+    <code>display: block;</code>
+    <br><br>
+    <div class="exemplo">Exemplo 01</div>
+    <p class="exemplo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae facere, tenetur inventore optio ad praesentium
+        est, ex nemo sapiente, iure totam ratione possimus voluptate temporibus eum dolorum odio molestiae alias.
+    </p>
+
+    <span class="exemplo" style="display:block;">Exemplo 03</span>
+    <br>
+
+    <br><br>
+    <code>display: inline;</code>
+    <br><br>
+    <span class="exemplo inline">Exemplo inline 4</span>
+    <span class="exemplo inline">Exemplo inline 5</span>
+    <em class="exemplo inline">Exemplo inline 6</em>
+    <b class="exemplo inline">Exemplo inline 7</b>
+
+
+    <p class="exemplo" style="display: inline;">modificando para display inline</p>
+    <br><br>
+    <code>display: inline-block</code>
+    <br><br>
+
+    <span class="exemplo inline-block">Exemplo inline Block 01</span>
+    <em class="exemplo inline-block">Exemplo inline Block 02</em>
+    <b class="exemplo inline-block">Exemplo inline Block 03</b>
+    <span class="exemplo inline-block">Exemplo inline Block 04</span>
+    <em class="exemplo inline-block">Exemplo inline Block 05</em>
+    <b class="exemplo inline-block">Exemplo inline Block 06</b>
+    <br><br><br>
+    <h3>Menu de nav</h3>
+    <nav class="menu">
+        <ul>
+            <!-- ul>li*3>a[href="#"]{Meu Link $} -->
+            <li><a href="#">Meu Link 1</a></li>
+            <li><a href="#">Meu Link 2</a></li>
+            <li><a href="#">Meu Link 3</a></li>
+        </ul>
+    </nav>
+
+    <br><br><br>
+    <code>display: none;</code>
+    <br><br><br>
+    <span class="exemplo inline-block">Exemplo inline Block 04</span>
+    <em class="exemplo inline-block esconder-elemento">Exemplo inline Block 05</em>
+    <b class="exemplo inline-block">Exemplo inline Block 06</b>
+
+    <br><br><br>
+    <code>display: none vs visibility:hidden;</code>
+    <br><br><br>
+    <span class="exemplo inline-block">Exemplo inline Block 04</span>
+    <em class="exemplo inline-block esconder-visibility">Exemplo inline Block 05</em>
+    <b class="exemplo inline-block">Exemplo inline Block 06</b>
+<br><br><br>
+
+<h2>Alinhando elementos inline</h2>
+<div class="container">
+<img id="item-01" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png" alt="">
+<span id="item-02" class="exemplo">Item 01</span>
+<span id="item-03" class="exemplo"> Item 02</span>
+</div>
+</body>
+
+</html>
