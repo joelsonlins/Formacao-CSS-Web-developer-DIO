@@ -32,11 +32,11 @@
 <details>
   <summary>Trabalhando com Layouts no CSS (8 atividades)</summary>
  
-   -  [] Posicionamentos e Exibição de Elementos com CSS(2hr)
-   -  [] Trabalhando com Flexbox no CSS(2hrs)
-   -  [] Clonando Youtube com CSS(2rhs)
-   -  [] Dominando Grid Layouts no CSS(3hrs)
-   -  [] Reproduzindo a Listagem do Youtube co Grid Layout no CSS(2hrs)
+   -  [x] Posicionamentos e Exibição de Elementos com CSS(2hr)
+   -  [x] Trabalhando com Flexbox no CSS(2hrs)
+   -  [x] Clonando Youtube com CSS(2rhs)
+   -  [x] Dominando Grid Layouts no CSS(3hrs)
+   -  [x] Reproduzindo a Listagem do Youtube co Grid Layout no CSS(2hrs)
    -  [] Responsividade no CSS(3hr)
    -  [] Construind um Layout Responsivo para o Site do Discord Com CSS(2hr)
    -  [] Materiais Complementares - Trabalhando Com Layouts no CSS(1hr)
@@ -45,13 +45,13 @@
 <details>
  <summary>Refinando os Estilos CSS das Nossas Páginas (7 Atividades)</summary>
 
-  -  [] Pseudo Elementos e Pseudo Classes(4hrs)
-  -  [] Transições e Animações(3hrs)
-  -  [] Boas Práticas e conveções no CSS(2hrs)
-  -  [] Iniciando com seu primeiro Framework em CSS: Bootstrap(3hrs)
-  -  [] Clonando o Site da HBO Max com Animações em HTML e CSS(1hrs)
-  -  [] Materiais Complementares - Refinando os Estilos CSS das nossas páginas(1hrs)
-  -  [] Avalie a Formação CSS Web Developer(1hrs)
+  -  [ ] Pseudo Elementos e Pseudo Classes(4hrs)
+  -  [ ] Transições e Animações(3hrs)
+  -  [ ] Boas Práticas e conveções no CSS(2hrs)
+  -  [ ] Iniciando com seu primeiro Framework em CSS: Bootstrap(3hrs)
+  -  [ ] Clonando o Site da HBO Max com Animações em HTML e CSS(1hrs)
+  -  [ ] Materiais Complementares - Refinando os Estilos CSS das nossas páginas(1hrs)
+  -  [ ] Avalie a Formação CSS Web Developer(1hrs)
          
 </details>
 
