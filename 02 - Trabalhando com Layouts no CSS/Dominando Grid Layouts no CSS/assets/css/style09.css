@@ -1,0 +1,49 @@
+body {
+  display: grid;
+  border: 3px solid;
+  height: 80vh;
+  gap: 15px;
+  
+  /*grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+   justify-items: center;
+  align-items: start; */
+  grid-template: repeat(3, 100px) / repeat(3, auto);
+
+  place-items: center;
+
+  /* justify-content: space-evenly;
+  align-content: center; */
+
+  place-content: space-evenly center;
+  
+}
+
+.item-01 {
+  background: palevioletred;
+  
+}
+.item-02 {
+  background-color: cornflowerblue;
+}
+.item-03 {
+  background: palegreen;
+}
+.item-04 {
+  background: orange;
+}
+.item-05 {
+  background: cadetblue;
+  place-self: start;
+}
+.item-06 {
+  background: aqua;
+}
+.item-07 {
+  background: tomato;
+}
+.item-08 {
+  background: palegoldenrod;
+}
+.item-09 {
+  background: cornflowerblue;
+}

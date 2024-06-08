@@ -24,17 +24,17 @@
  
    -  [x] Fundamentos do css(3hr)
    -  [x] Estilizações Básicas com CSS(6hrs)
-   -  [] Unidades de Medida em CSS(2hr)
-   -  [] Criando sua Primeira Landing Page com HTML e CSS(2hr)
-   -  [] Materiais Complementares - Primeiros Passos com CSS(1hr)
+   -  [x] Unidades de Medida em CSS(2hr)
+   -  [x] Criando sua Primeira Landing Page com HTML e CSS(2hr)
+   -  [x] Materiais Complementares - Primeiros Passos com CSS(1hr)
   
 </details>
 <details>
   <summary>Trabalhando com Layouts no CSS (8 atividades)</summary>
  
-   -  [] Posicionamentos e Exibição de Elementos com CSS(2hr)
-   -  [] Trabalhando com Flexbox no CSS(2hrs)
-   -  [] Clonando Youtube com CSS(2rhs)
+   -  [x] Posicionamentos e Exibição de Elementos com CSS(2hr)
+   -  [x] Trabalhando com Flexbox no CSS(2hrs)
+   -  [x] Clonando Youtube com CSS(2rhs)
    -  [] Dominando Grid Layouts no CSS(3hrs)
    -  [] Reproduzindo a Listagem do Youtube co Grid Layout no CSS(2hrs)
    -  [] Responsividade no CSS(3hr)
