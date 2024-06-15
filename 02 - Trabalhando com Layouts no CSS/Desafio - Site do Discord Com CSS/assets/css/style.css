@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden; /* Impede barras de rolagem horizontais */
+}
+
+header {
+  background-image: url("../images/Background.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px 20px;
+  height: 456px;
+}
+
+header section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 56px;
+  margin-bottom: 0.5em;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+header p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  color: #fff;
+}
+
+header .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header .buttons a {
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+header .buttons a:hover {
+  background-color: #c70039;
+}
+
+.custom-button {
+  height: 44px;
+  border-radius: 28px;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-block;
+  text-align: center;
+  line-height: 21.79px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.btn1 {
+  width: 205px;
+  background-color: #fff;
+  color: #23272a;
+}
+
+.btn2 {
+  width: 281px;
+  background-color: #23272a;
+  color: #fff;
+}
+
+.btn1:hover {
+  background-color: #23272a;
+  color: #fff;
+}
+
+.btn2:hover {
+  background-color: #fff;
+  color: #23272a;
+}
+
+.content-section {
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box; /* Garante que padding não aumente a largura total */
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%; /* Garante que o conteúdo não ultrapasse a largura da tela */
+  margin: 0 auto;
+}
+
+.last-container {
+  max-width: 100%; /* Garante que o conteúdo não ultrapasse a largura da tela */
+}
+
+.content-section.reverse {
+  background-color: #f6f6f6;
+}
+
+.content-section:nth-of-type(4) {
+  background-color: #f6f6f6;
+}
+
+.content-section img {
+  max-width: 100%;
+  height: auto;
+  flex: 1;
+}
+
+.content-section h2 {
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 54.47px;
+  text-align: left;
+  color: #23272a;
+}
+
+.content-section p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  color: #23272a;
+}
+
+.content-section .text-content {
+  flex: 2;
+  padding: 20px;
+}
+
+.content-section.reverse .text-content,
+.content-section.reverse img {
+  order: 1;
+}
+
+.content-section.center-vertical .content-container {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.last h2 {
+  font-family: Luckiest Guy;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #23272a;
+  height: 134px;
+}
