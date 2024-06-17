@@ -5,8 +5,9 @@ body,
 html {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden; /* Impede barras de rolagem horizontais */
 }
 
 header {
@@ -24,7 +25,7 @@ header section {
 }
 
 header h1 {
-  font-size: 56px;
+  font-size: clamp(32px, 56px, 5vw);
   margin-bottom: 0.5em;
   font-family: "Luckiest Guy", cursive;
   font-weight: 400;
@@ -34,7 +35,7 @@ header h1 {
 
 header p {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.5em;
+  font-size: clamp(10px, 16px, 3.8vw);
   margin-bottom: 1em;
   color: #fff;
 }
@@ -46,16 +47,11 @@ header .buttons {
 }
 
 header .buttons a {
-  background-color: #ff5733;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s;
-}
-
-header .buttons a:hover {
-  background-color: #c70039;
 }
 
 .custom-button {
@@ -81,38 +77,36 @@ header .buttons a:hover {
 
 .btn2 {
   width: 281px;
-  background-color: #23272a;
-  color: #fff;
+  background-color: #23272a; /* Cor de fundo preto */
+  color: #fff; /* Cor do texto branca */
 }
 
 .btn1:hover {
-  background-color: #23272a;
-  color: #fff;
+  background-color: #23272a; /* Cor de fundo preto */
+  color: #fff; /* Cor do texto branca */
 }
 
 .btn2:hover {
-  background-color: #fff;
-  color: #23272a;
+  background-color: #fff; /* Cor de fundo branco */
+  color: #23272a; /* Cor do texto preta */
 }
 
 .content-section {
   width: 100%;
   padding: 20px 0;
-  box-sizing: border-box; /* Garante que padding não aumente a largura total */
 }
 
 .content-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%; /* Garante que o conteúdo não ultrapasse a largura da tela */
+  max-width: 1200px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
-
-.last-container {
-  max-width: 100%; /* Garante que o conteúdo não ultrapasse a largura da tela */
+.reversed {
+  flex-wrap: wrap-reverse;
 }
-
 .content-section.reverse {
   background-color: #f6f6f6;
 }
@@ -122,32 +116,32 @@ header .buttons a:hover {
 }
 
 .content-section img {
-  max-width: 100%;
+  width: clamp(379px, 60vw, 607px);
   height: auto;
   flex: 1;
 }
-
-.content-section h2 {
-  font-family: Open Sans;
-  font-size: 40px;
-  font-weight: 800;
-  line-height: 54.47px;
-  text-align: left;
-  color: #23272a;
+.last-container img {
+  width: clamp(379px, 60vw, 784px);
+  height: auto;
 }
-
-.content-section p {
-  font-family: Open Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 21.79px;
-  text-align: left;
-  color: #23272a;
-}
-
 .content-section .text-content {
   flex: 2;
   padding: 20px;
+}
+.text-content h2 {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32.68px;
+  text-align: left;
+  color: #23272a;
+}
+.last h2 {
+  font-family: Luckiest Guy;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
 }
 
 .content-section.reverse .text-content,
@@ -161,18 +155,40 @@ header .buttons a:hover {
   text-align: center;
 }
 
-.last h2 {
-  font-family: Luckiest Guy;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 40px;
-  text-align: center;
-}
-
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #23272a;
   height: 134px;
+}
+
+
+@media (max-width: 428px) {
+  header {
+    height: 505px;
+  }
+  header p,
+  h1 {
+    text-align: left;
+  }
+  header p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .btn1,
+  .btn2 {
+    width: 381px;
+    height: 54px;
+  }
+  footer img{
+    width: 162px;
+}
 }
