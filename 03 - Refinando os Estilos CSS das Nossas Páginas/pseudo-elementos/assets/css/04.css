@@ -1,0 +1,10 @@
+code {
+    background-color: lightgray;
+}
+summary::marker{ 
+    color: red;
+    content: " ➜💘 "; /* https://fsymbols.com/signs/arrow/ */
+}
+li::marker{
+    content: "⚡";
+}

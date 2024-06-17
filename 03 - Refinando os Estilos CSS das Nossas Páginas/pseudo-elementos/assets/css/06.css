@@ -1,0 +1,18 @@
+code {
+    background-color: lightgray;
+}
+
+::selection{
+    background-color: palevioletred;
+    color: white;
+}
+.exemplo01::selection{
+    color:white;
+    background-color: red;
+
+}
+.exemplo02::selection{
+    color:lightblue;
+    background-color: blue;
+
+}
