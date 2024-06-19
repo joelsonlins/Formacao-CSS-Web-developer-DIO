@@ -1,0 +1,8 @@
+p:target{
+    background-color: gold;
+}
+
+
+p:target::before{
+    content: "⏩";
+}

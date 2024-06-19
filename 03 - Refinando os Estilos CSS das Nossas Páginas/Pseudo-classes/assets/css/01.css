@@ -1,0 +1,25 @@
+button{
+    background-color: palevioletred;
+    border: none;
+    padding: 8px 14px;
+    color: white;
+
+}
+
+button:hover{
+    background-color: palegreen;
+    color: darkgreen;
+    border: 1px solid darkgreen;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: palegoldenrod;
+    margin-top: 30px;
+}
+
+.container button:hover{
+    background-color: purple;
+    color: white;
+}
