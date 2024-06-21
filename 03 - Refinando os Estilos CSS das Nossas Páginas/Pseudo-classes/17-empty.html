@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=h1, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/17.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Pseudo-classes:</h1>
-    <div>
-        <input type="checkbox" name="task-01">
-        <label for="task-01">:only-type-of-child</label>
-    </div>
+
+    <input type="checkbox" name="task">
+    <label for="task">empty</label>
+
 
     <hr>
 
-    <main>
-        <div>Eu sou a div #1</div>
-        <p>Eu sou o único p entre meus irmãos</p>
-        <div>Eu sou a div #2</div>
-        <div>Eu sou a div #3
-            <i>Eu sou o único filho i</i>
-            <em>Eu sou o em #1</em>
-            <em>Eu sou o em #2</em>
-        </div>
+    <p>Elemento sem conteúdo:</p>
+    <div></div>
+    <p>Elemento sem conteúdo:</p>
+    <div>
+        <!-- Simple Comment -->
+    </div>
 
-    </main>
+    <p>Elemento Com espaço em branco:</p>
+    <div> </div>
+
+    <p>Elemento com elemento vazio dentro dele:</p>
+    <div>
+        <p></p>
+    </div>
+
+    <p>Elemento com propriedade content:</p>
+    <div id="elemento-content"></div>
 </body>
+
 </html>
