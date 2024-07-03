@@ -1,0 +1,46 @@
+/*
+* VARIÁVEIS CSS
+* Declaração: --nome-da-variavel
+*Referência: var(--nome-da-variavel)
+*/
+:root{
+    --bg-gradient:linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); 
+    --bg-gradient:linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    --bg-body:rgb(34, 34, 34);
+    /* --text-color:red; */
+} 
+.light-theme{
+    --bg-body:rgb(247, 247, 247);
+    --bg-gradient:linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+.dark-theme{
+    --bg-body:rgb(34, 34, 34);
+    --bg-gradient:linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-body);
+    text-align: center;
+}
+
+h1 {
+    background: var(--bg-gradient);
+    font-size: 5rem;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+a{
+    text-decoration: none;
+    background: var(--bg-gradient);
+    padding: 8px 14px;
+    border-radius: 4px;
+    color: #fafafa;
+
+}
+
+p{
+    color: var(--text-color, blue)
+}

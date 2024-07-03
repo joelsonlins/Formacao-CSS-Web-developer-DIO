@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    /* background: linear-gradient(90deg, #FC466B 0%,#3F5EFB 100%); */
+    background: url("https://i.pinimg.com/736x/9a/89/63/9a896383bbd572d4a65d8beb97804389.jpg");
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.box:hover{
+    transform: rotateX(80deg);
+}

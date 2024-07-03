@@ -37,16 +37,16 @@
    -  [x] Clonando Youtube com CSS(2rhs)
    -  [x] Dominando Grid Layouts no CSS(3hrs)
    -  [x] Reproduzindo a Listagem do Youtube co Grid Layout no CSS(2hrs)
-   -  [] Responsividade no CSS(3hr)
-   -  [] Construind um Layout Responsivo para o Site do Discord Com CSS(2hr)
-   -  [] Materiais Complementares - Trabalhando Com Layouts no CSS(1hr)
+   -  [x] Responsividade no CSS(3hr)
+   -  [x] Construind um Layout Responsivo para o Site do Discord Com CSS(2hr)
+   -  [x] Materiais Complementares - Trabalhando Com Layouts no CSS(1hr)
   
 </details>
 <details>
  <summary>Refinando os Estilos CSS das Nossas Páginas (7 Atividades)</summary>
 
-  -  [ ] Pseudo Elementos e Pseudo Classes(4hrs)
-  -  [ ] Transições e Animações(3hrs)
+  -  [x] Pseudo Elementos e Pseudo Classes(4hrs)
+  -  [x] Transições e Animações(3hrs)
   -  [ ] Boas Práticas e conveções no CSS(2hrs)
   -  [ ] Iniciando com seu primeiro Framework em CSS: Bootstrap(3hrs)
   -  [ ] Clonando o Site da HBO Max com Animações em HTML e CSS(1hrs)
@@ -59,10 +59,15 @@
 
 <h2 id="tecnologias">🛠 Tecnologias e Ferramentas Utilizadas</h2>
 
-1. <a href="" target="_blank">VS Code</a>
-1. <a href="" target="_blank">HTML</a>
-1. <a href="" target="_blank">CSS</a>
-1. <a href="" target="_blank">Figma</a>
+1. <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
+2. <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a>
+3. <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS</a>
+4. <a href="https://www.figma.com/" target="_blank">Figma</a>
+5. <a href="https://caniuse.com/" target="_blank">CanIUse</a>
+6. <a href="https://www.w3schools.com/" target="_blank">W3</a>
+7. <a href="https://getbem.com/" target="_blank">BEM</a>
+8. <a href="https://smacss.com/" target="_blank">SMACSS</a>
+9. <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
 
 
 <h2 id="certificado">👨🏾‍🎓 ✅Certificado de Conclusão</h2>

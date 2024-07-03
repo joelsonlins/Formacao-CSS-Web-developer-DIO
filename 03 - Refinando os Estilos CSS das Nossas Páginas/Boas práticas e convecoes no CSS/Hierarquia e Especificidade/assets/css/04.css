@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.teste{
+    padding: 8px;
+    border: 2px solid blue;
+}
+
+.teste p{
+    border: inherit;
+    padding: inherit;
+}

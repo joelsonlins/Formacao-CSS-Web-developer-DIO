@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(34,13,80,1) 50%, rgba(74,153,230,1) 100%);
+  }
+  
+  .rocket {
+    animation: take-off-rocket 6s ease-in-out infinite alternate;
+  }
+  
+  @keyframes take-off-rocket {
+    0% {
+      transform: translateY(20vh);
+    }
+    50% {
+      transform: translateY(-80vh);
+    }
+    100% {
+      transform: translateY(20vh);
+    }
+  }
+  
