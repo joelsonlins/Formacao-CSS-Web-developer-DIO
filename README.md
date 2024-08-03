@@ -30,7 +30,7 @@
   
 </details>
 <details>
-  <summary>Trabalhando com Layouts no CSS (8 atividades)</summary>
+  <summary>✅Trabalhando com Layouts no CSS (8 atividades)</summary>
  
    -  [x] Posicionamentos e Exibição de Elementos com CSS(2hr)
    -  [x] Trabalhando com Flexbox no CSS(2hrs)
@@ -47,11 +47,11 @@
 
   -  [x] Pseudo Elementos e Pseudo Classes(4hrs)
   -  [x] Transições e Animações(3hrs)
-  -  [ ] Boas Práticas e conveções no CSS(2hrs)
-  -  [ ] Iniciando com seu primeiro Framework em CSS: Bootstrap(3hrs)
+  -  [x] Boas Práticas e conveções no CSS(2hrs)
+  -  [x] Iniciando com seu primeiro Framework em CSS: Bootstrap(3hrs)
   -  [ ] Clonando o Site da HBO Max com Animações em HTML e CSS(1hrs)
-  -  [ ] Materiais Complementares - Refinando os Estilos CSS das nossas páginas(1hrs)
-  -  [ ] Avalie a Formação CSS Web Developer(1hrs)
+  -  [x] Materiais Complementares - Refinando os Estilos CSS das nossas páginas(1hrs)
+  -  [x] Avalie a Formação CSS Web Developer(1hrs)
          
 </details>
 
