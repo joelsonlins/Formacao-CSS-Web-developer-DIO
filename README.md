@@ -43,7 +43,7 @@
   
 </details>
 <details>
- <summary>Refinando os Estilos CSS das Nossas Páginas (7 Atividades)</summary>
+ <summary>✅Refinando os Estilos CSS das Nossas Páginas (7 Atividades)</summary>
 
   -  [x] Pseudo Elementos e Pseudo Classes(4hrs)
   -  [x] Transições e Animações(3hrs)
@@ -71,5 +71,7 @@
 
 
 <h2 id="certificado">👨🏾‍🎓 ✅Certificado de Conclusão</h2>
+
+<a href="https://www.dio.me/certificate/SKAWBNQN/share" target="_blank">	👉 Certificado de conclusão. 👈 </a>
 
 
